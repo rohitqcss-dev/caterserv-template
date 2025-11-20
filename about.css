@@ -1,0 +1,144 @@
+.firstclasscontact{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+.carter{
+    /* border: 1px solid red; */
+    width: 30%;
+    text-align: center;
+}
+.list{
+    /* border: 1px solid red; */
+    width: 40%;
+    
+    
+}
+.ulcontact{
+    list-style: none;
+
+    display: flex;
+   gap: 20px;
+
+}
+.Contactbtn{
+        /* border: 1px solid red; */
+        width: 20%;
+        display: flex;
+        gap: 30px;
+
+}
+.Contactbtn button{
+    height: 38px;
+    width: 130px;
+    background-color: #d4aC62;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.Contactbtn i{
+    background-color: #d4aC62;
+    border-radius: 50px;
+    /* border: 1px solid red; */
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding: 10px 0px;
+  box-sizing: border-box    ;
+}
+.secondsectionmain{
+    border: 1px solid green;
+    margin: 50px 0px;
+   
+}
+.secondsectionmain h1{
+    /* border: 1px solid red; */
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+/* 3rd section csss */
+.getintouchsectionmain{
+    border: 1px solid red;
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+    
+   
+    
+}
+
+.get1{
+    width: 50%;
+    /* border: 1px solid red; */
+     
+   
+}
+.get1 button{
+    width: 139px;
+    height: 32px;
+    border:1px solid #d4aC62;
+    border-radius: 20px;
+}
+.get h1{
+    font-size: 47px;
+}
+.get1 p{
+    color: #9a9a9a;
+    font-size: 18px;
+    width: 100%
+}
+.get1 input{
+    border: 1px solid #d4aC62;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20x;
+    color: #9a9a9a;
+    margin: 10px 0px ;
+    padding: 10px 20px;
+     box-sizing: border-box;
+
+}
+.get1 textarea{
+    border: 1px solid #d4aC62;
+    height: 120px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #9a9a9a;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: 10px 0px;
+   
+
+    
+}
+.get2{
+    width: 50%;
+    margin-top: 110px;
+    margin: 0px auto;
+}
+.get3{
+    border: 1px solid #d4aC62;
+    height: 110px;
+    width: 100%;
+    border-radius: 10px;
+    /* margin: 20px 0px; */
+
+}
+.get2 h1{
+    font-size: 26px;
+    margin: 10px 20px;
+    
+
+}
+.get2 p{
+    font-size: 17px;
+    color: #9a9a9a;
+    margin: 0px 20px;
+
+}
