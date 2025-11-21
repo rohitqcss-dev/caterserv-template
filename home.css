@@ -76,6 +76,7 @@
     width: 1280px;
     margin: 0px auto;
     border: 1px solid red;
+    overflow: hidden;
 
 }
 
@@ -1014,16 +1015,52 @@
 .testimonialcardmain {
     /* border :1px solid blue; */
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 100%;
     gap: 20px;
     /* margin: 0px auto; */
-    
+    overflow: hidden;
+    animation-name: testimonialcardamin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.testimonialcardmainn {
+    /* border :1px solid blue; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    gap: 20px;
+    /* margin: 0px auto; */
+    overflow: hidden;
+    animation-name: testimonialcardaminn;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes testimonialcardamin {
+
+    0%{
+        transform: translateX(1200px);
+
+    }
+    100%{
+transform: translateX(-100px);
+    }
+}
+@keyframes testimonialcardaminn {
+
+    0%{
+        transform: translateX(-1200px);
+
+    }
+    100%{
+transform: translateX(100px);
+    }
 }
 
 .testinomialcard {
     border: 1px solid red;
-    width: 22%;
+    width: 33%;
     border: 1px solid #d4a762;
     margin: 0px auto;
     border-radius: 10px;
@@ -1066,6 +1103,39 @@
 
 .testinomialcard i {
     color: #d4a762 !important;
+
+
+}
+
+
+
+
+/* our blog sectiob csss */
+.ourblogmainclass{
+    border:1px solid red;
+}
+
+
+
+
+.ourblogmain{
+    background-image: url('img/blog-1.jpg');
+    width: 35%;
+    height: 400px;
+
+
+}
+.ourblogmain1{
+    background-image: url('img/blog-2.jpg');
+    width: 35%;
+    height: 400px;
+
+
+}
+.ourblogmain2{
+    background-image: url('img/blog-3.jpg');
+    width: 35%;
+    height: 400px;
 
 
 }
